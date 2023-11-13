@@ -7,10 +7,9 @@ This repository contains code and analysis for clustering cryptocurrencies using
 1. [Introduction](#introduction)
 2. [Elbow Method and Clustering with Original Data](#elbow-method-and-clustering-with-original-data)
 3. [Clustering Optimization with PCA](#clustering-optimization-with-pca)
-4. [Visualizing and Comparing Results](#visualizing-and-comparing-results)
-5. [Coding Conventions and Formatting](#coding-conventions-and-formatting)
-6. [Deployment and Submission](#deployment-and-submission)
-7. [Code Comments](#code-comments)
+4. [Coding Conventions and Formatting](#coding-conventions-and-formatting)
+5. [Deployment and Submission](#deployment-and-submission)
+6. [Code Comments](#code-comments)
 
 ## Introduction
 
@@ -39,10 +38,6 @@ The elbow method was applied to the PCA data to find the optimal k for clusterin
 ### 5. Clustering with PCA Data
 
 The K-Means model was initialized with the optimal k from PCA. The clusters were predicted and added to the PCA data. A scatter plot was generated using hvPlot to visualize the clusters.
-
-## Visualizing and Comparing Results
-
-Composite plots were created to compare the elbow curves and cluster results obtained from the original data and PCA. The impact of using fewer features for clustering was analyzed visually.
 
 ## Coding Conventions and Formatting
 
